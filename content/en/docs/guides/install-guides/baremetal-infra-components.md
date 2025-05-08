@@ -91,6 +91,8 @@ metadata: # kpt-merge: baremetal-operator-system/baremetal-operator-ironic-bmo-c
     internal.kpt.dev/upstream-identifier: '|ConfigMap|baremetal-operator-system|baremetal-operator-ironic-bmo-configmap-6cf9t7484b'
 ```
 
+![Network Diagram](/static/images/install-guides/CapiMetal3.png)
+
 NOTE: 
 - The DHCP_HOSTS, DHCP_IGNORE, DHCP_RANGE do not have to be updated if you are using static IP configuration.
 - The PROVISIONING_INTERFACE is the interface where the Nephio Management cluster control plane IP can be reached.
